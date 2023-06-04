@@ -9,7 +9,7 @@ body {
     margin: 0 auto;
     padding: 20px;
     white-space: nowrap;
-    animation: moveMessage 10s linear infinite;
+    animation: moveMessage 7s linear infinite;
 }
 
 .moving-message {
