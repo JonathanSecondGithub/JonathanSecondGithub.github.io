@@ -1,26 +1,23 @@
 body {
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
     font-family: Arial, sans-serif;
-    font-size: 150px;
-    overflow: hidden;
-    background-color:black;
 }
+
 .container {
-    max-width: 100%;
+    max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    white-space: nowrap;
-    animation: moveMessage 7s linear infinite;
 }
 
-.moving-message {
-    color: red;
-  }
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
 
-@keyframes moveMessage {
-    0% {
-        transform: translateX(100%);
-    }
-    100% {
-        transform: translateX(-175%);
-    }
+.gallery img {
+    width: 100%;
+    height: auto;
 }
