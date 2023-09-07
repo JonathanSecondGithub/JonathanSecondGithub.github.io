@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#file to commit to github
+
+git add .
+git commit -m "$1"
+git push
